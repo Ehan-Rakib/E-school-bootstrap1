@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+/* header part start */
+
+.header {
+    background-color: #F0FFF0;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    width: 22%
+}
+
+.navbar-brand img {
+    width: 100%
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.btn-custom {
+    background-color: #21B573;
+
+    padding: 5px 16px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+
+.btn-custom:hover {
+    color: white;
+    background-color: #4bd396;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+
+.content {
+    margin: 100px 0;
+}
+
+.content h5 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FD511A;
+
+}
+
+.content h1 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.content h1 span {
+    color: #21B573;
+}
+
+.content p {
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.content .btn-custom2 {
+    padding: 8px 14px;
+    background-color: #21B573;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 25px;
+    color: #fff;
+}
+
+.content .btn-custom2:hover {
+
+    background-color: #4bd396;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+
+/* header part end */
+
+
+/* service part start */
+
+.services .service {
+    margin: 80px 0;
+    padding: 30px;
+    background-color: #F8FFFB;
+    margin-left: 15px;
+    width: 270px;
+
+}
+
+.services .service:hover {
+
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+
+
+}
+
+.services .pic img {
+    width: 20%;
+}
+
+.service-text h4 {
+    color: #413960;
+    margin-top: 30px;
+
+
+}
+
+.service-text p {
+    color: #585858;
+
+
+}
+
+.heading h2 {
+    font-weight: 600;
+    text-align: center;
+    color: #413960;
+    margin-bottom: 50px;
+}
+
+.course-item {
+    background-color: #fff;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    border-radius: 18px;
+}
+
+.course-content .btn-custom3 {
+    background-color: #21B573;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.course-content .btn-custom3:hover {
+    background-color: #4bd396;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+
+/* service part end */
+
+/* course part start */
+
+.course .pic img {
+    width: 100%;
+}
+
+.course-content ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.course-content p,
+li {
+    color: #585858;
+}
+
+
+/* course part end */
+
+/* testomonial paret start */
+
+.test-pic img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    color: #000000;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+/* testomonial paret end */
+
+/* footer part start */
+
+footer {
+    background-color: #282531;
+    color: #fff;
+    padding-top: 65px;
+    padding-bottom: 20px;
+}
+
+
+footer p {
+    font-weight: 400;
+
+}
+
+footer ul li:first-child h6 {
+
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+footer ul li {
+    color: #fff;
+    list-style: none;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 100;
+
+
+
+}
+
+footer h5 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+footer h5 span {
+    color: #21B573;
+}
+
+/* footer part end */
